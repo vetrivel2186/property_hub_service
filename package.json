@@ -1,0 +1,32 @@
+{
+  "name": "property_hub_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vetrivel2186/property_hub_service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vetrivel2186/property_hub_service/issues"
+  },
+  "homepage": "https://github.com/vetrivel2186/property_hub_service#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.0.0",
+    "typescript": "^6.0.3",
+    "tsx": "^4.0.0"
+  }
+}
