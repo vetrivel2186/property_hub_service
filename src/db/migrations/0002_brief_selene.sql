@@ -1,0 +1,1 @@
+ALTER TABLE "properties" ADD COLUMN "primary_image_url" text NOT NULL;

@@ -1,0 +1,1 @@
+ALTER TABLE "properties" ALTER COLUMN "primary_image_url" DROP DEFAULT;
